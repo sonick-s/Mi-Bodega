@@ -1,0 +1,81 @@
+/* CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex; /* Utiliza flexbox para hacer el diseño responsive */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten al ancho de la pantalla */
+}
+
+/* Cambios en el CSS */
+div {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 20px; /* Elimina la propiedad float y margen derecho */
+    margin-bottom: 20px; /* Agrega margen inferior para separar los divs */
+    flex: 1; /* Hace que los divs ocupen el mismo espacio dentro del contenedor */
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 10px auto;
+    transform: rotate(180deg); /* Mantén la rotación de la imagen */
+}
+
+button {
+    background-color: #bedaf8;
+    border: none;
+    color: #090e11;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #8fbad3;
+    padding: 20px;
+    text-align: center;
+}
+
+.Numeral {
+    margin-right: 10px; 
+}
+
+.Guia {
+    color: green;
+}

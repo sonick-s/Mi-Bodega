@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Órdenes</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <header>
+        <h1>Órdenes</h1>
+        <a href="../index.html" class="boton-enlace">Regresar a Home</a>
+    </header>
+    <main>
+        <div class="container">
+            <section>
+                <h2>Rellenar Datos de Orden</h2>
+                <form>
+                    <label for="numero">Número de Orden:</label>
+                    <input type="text" id="numero" name="numero" required>
+                    <label for="producto">Producto:</label>
+                    <input type="text" id="producto" name="producto" required>
+                    <label for="fecha">Fecha:</label>
+                    <input type="date" id="fecha" name="fecha" required>
+                    <label for="entrega">Entrega:</label>
+                    <input type="text" id="entrega" name="entrega" required>
+                    <label for="sucursal">Sucursal:</label>
+                    <input type="text" id="sucursal" name="sucursal" required>
+                    <label for="ordenante">Ordenante:</label>
+                    <input type="text" id="ordenante" name="ordenante" required>
+                    <button type="submit">Guardar</button>
+                </form>
+            </section>
+            <section>
+                <h2>Última Orden</h2>
+                <p>Número: <span id="ultima-orden">-</span></p>
+                <p>Producto: <span id="producto-orden">-</span></p>
+                <p>Fecha: <span id="fecha-orden">-</span></p>
+                <p>Entrega: <span id="entrega-orden">-</span></p>
+                <p>Sucursal: <span id="sucursal-orden">-</span></p>
+                <p>Ordenante: <span id="ordenante-orden">-</span></p>
+            </section>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>

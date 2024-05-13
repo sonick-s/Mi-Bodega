@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <header>
+        <h1>Nuevo</h1>
+        <a href="../index.html" class="boton-enlace">Regresar a Home</a>
+    </header>
+    <main>
+        <div class="container">
+            <section>
+                <h2>Rellenar Datos de Guía de Remisión</h2>
+                <form>
+                    <label for="numero">Número de Guía:</label>
+                    <input type="text" id="numero" name="numero" required>
+                    <label for="fecha">Fecha:</label>
+                    <input type="date" id="fecha" name="fecha" required>
+                    <label for="remitente">Remitente:</label>
+                    <input type="text" id="remitente" name="remitente" required>
+                    <label for="destinatario">Destinatario:</label>
+                    <input type="text" id="destinatario" name="destinatario" required>
+                    <label for="producto">Producto:</label>
+                    <input type="text" id="producto" name="producto" required>
+                    <button type="submit">Guardar</button>
+                </form>
+            </section>
+            <section>
+                <h2>Última Guía de Remisión</h2>
+                <p>Número: <span id="ultima-guia">-</span></p>
+                <p>Fecha: <span id="fecha-guia">-</span></p>
+                <p>Remitente: <span id="remitente-guia">-</span></p>
+                <p>Destinatario: <span id="destinatario-guia">-</span></p>
+                <p>Producto: <span id="producto-guia">-</span></p>
+            </section>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
